@@ -7,12 +7,12 @@ if "train" not in st.session_state:
 
 # 实训配置：改为子应用的本地文件路径（需将子应用代码下载到本地）
 train_config = {
-    "数字档案": {"file_path": "first.py", "desc": "HTML/CSS基础布局实训"},
-    "南宁美食数据仪表": {"file_path": "second.py", "desc": "JavaScript交互实训"},
-    "相册": {"file_path": "third.py", "desc": "JavaScript交互实训"},
-    "音乐播放器": {"file_path": "app.py", "desc": "JavaScript交互实训"},
-    "视频网站": {"file_path": "abc.py", "desc": "JavaScript交互实训"},
-    "羊羊简历": {"file_path": "acc.py", "desc": "JavaScript交互实训"},
+    "数字档案": {"file_path": "first.py", "desc": "数字档案"},
+    "南宁美食数据仪表": {"file_path": "second.py", "desc": "南宁美食数据仪表"},
+    "相册": {"file_path": "third.py", "desc": "相册"},
+    "音乐播放器": {"file_path": "app.py", "desc": "音乐播放器"},
+    "视频网站": {"file_path": "abc.py", "desc": "视频网站"},
+    "个人档案生成器": {"file_path": "acc.py", "desc": "个人档案生成器"},
     # 其他实训项同理，需将对应的.py文件放在主应用同一目录
 }
 
